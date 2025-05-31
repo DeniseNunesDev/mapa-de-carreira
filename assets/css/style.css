@@ -1,0 +1,102 @@
+/* 🎨 Cores padrão */
+:root {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;   /* Texto mais claro para melhor contraste */
+    --accent-color: #b98aa2; /* Cor de destaque */
+
+    --progress-bar-color: #8A2BE2;
+  }
+  
+  /* 🌍 Corpo geral */
+  body {
+    text-align: justify;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* 🔗 Links */
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #83425f;
+  }
+  
+  /* 📄 Wrapper dos conteúdos (caixa geral) */
+  .resume-wrapper-inner {
+    background-color: var(--card-bg-color);
+    color: var(--text-color);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+  }
+  
+  /* 🏷️ Títulos das seções principais */
+  .resume-section-title {
+    color:  #805663;
+  }
+  
+  /* 🟪 Títulos dentro das experiências */
+  h3.resume-position-title {
+    color:  #b8bacc;
+  }
+  h4.resume-timeline-item-desc-heading {
+    color:  #7c536a;
+  }
+  
+  /* 🟦 Títulos das colunas laterais */
+  .resume-skills-cat {
+    color:  #b8bacc;
+  }
+  .resume-skill-name {
+    color: #797778; /* 🔥 Cor das skills */
+}
+  .resume-lang-name {
+    color:  #b8bacc;
+  }
+  
+  /* 📜 Listas e itens */
+  li {
+    color: var(--text-color);
+  }
+  
+  p {
+    color:  #dadada;
+  }
+  
+  div {
+    text-align: justify;
+    color: var(--text-color);
+  }
+  
+  /* 🏷️ Badges (as tags de skills e tecnologias) */
+  .badge {
+    background-color:  #79488d;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.329);
+    color: rgb(37, 37, 37);
+  }
+  
+  /* 📊 Barras de afinidade (skills) */
+  .progress-bar {
+    background-color: #79488d;
+
+  }
+  
+  /* 📦 Cards das experiências (Timeline) */
+  .resume-timeline-item {
+    background-color: #111010;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+  }
+  
+
+
