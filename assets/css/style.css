@@ -99,4 +99,37 @@
   }
   
 
+  .social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+    z-index: 1000;
+}
 
+.social-icons a {
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #8A2BE2;
+}
+
+.gif-container {
+  width: 100%;                /* Preenche 100% da largura da tela */
+  max-height: auto;           /* Altura proporcional */
+  display: block;
+  position: relative;         /* 🔥 Parte do fluxo da página, NÃO fixo no fundo */
+  overflow: hidden;
+}
+
+.gif-container img {
+  width: 100%;                /* 🔥 Sempre 100% da largura da tela */
+  height: auto;               /* 🔥 Altura proporcional ao tamanho original */
+  display: block;
+}
